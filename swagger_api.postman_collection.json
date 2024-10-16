@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "0cb442db-7b34-4580-b9ba-b2df7bde4af2",
+		"name": "swagger_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29273949"
+	},
+	"item": [
+		{
+			"name": "timeslots",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "noman",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "noman",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n                    2,\r\n                    12\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n                    13,\r\n                    15\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/timeslots/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timeslots",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "noman",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "noman",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n    \r\n                    12\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n       \r\n                    15\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/timeslots/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timeslots",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Request",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "noman",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "noman",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n    \r\n                    32\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n       \r\n                    25\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/timeslots/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timeslots",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
