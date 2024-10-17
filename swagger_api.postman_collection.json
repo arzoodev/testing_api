@@ -13,16 +13,11 @@
 			},
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "noman",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "noman",
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM0MzYwNDU1LCJpYXQiOjE3MjkxNzI3NzUsImp0aSI6IjA4ZDUwMGU4YTAwOTQ1YWQ4MDFkYzU1ODNlZTliYzQwIiwidXNlcl9pZCI6MX0.dxEJKJEUSumcqyCNdzlcpPWuc2ynIBzlq6upu6L0tBM",
 							"type": "string"
 						}
 					]
@@ -31,7 +26,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n                    2,\r\n                    12\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n                    13,\r\n                    15\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -61,16 +56,11 @@
 			"name": "delete",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "noman",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "noman",
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM0MzYwNDU1LCJpYXQiOjE3MjkxNzI3NzUsImp0aSI6IjA4ZDUwMGU4YTAwOTQ1YWQ4MDFkYzU1ODNlZTliYzQwIiwidXNlcl9pZCI6MX0.dxEJKJEUSumcqyCNdzlcpPWuc2ynIBzlq6upu6L0tBM",
 							"type": "string"
 						}
 					]
@@ -79,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n    \r\n                    12\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n       \r\n                    15\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "{\r\n    \"schedule\": {\r\n       \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n                    13\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -109,16 +99,11 @@
 			"name": "Post Request",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "noman",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "noman",
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM0MzYwNDU1LCJpYXQiOjE3MjkxNzI3NzUsImp0aSI6IjA4ZDUwMGU4YTAwOTQ1YWQ4MDFkYzU1ODNlZTliYzQwIiwidXNlcl9pZCI6MX0.dxEJKJEUSumcqyCNdzlcpPWuc2ynIBzlq6upu6L0tBM",
 							"type": "string"
 						}
 					]
@@ -127,7 +112,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"schedule\": {\r\n        \"monday\": [\r\n            {\r\n                \"start\": \"01:00\",\r\n                \"stop\": \"02:59\",\r\n                \"ids\": [\r\n    \r\n                    32\r\n                ]\r\n            }\r\n        ],\r\n       \r\n        \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n       \r\n                    25\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "{\r\n    \"schedule\": {\r\n       \r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n                    33\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -156,8 +141,120 @@
 		{
 			"name": "Patch Request",
 			"request": {
-				"method": "GET",
-				"header": []
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM0MzYwNDU1LCJpYXQiOjE3MjkxNzI3NzUsImp0aSI6IjA4ZDUwMGU4YTAwOTQ1YWQ4MDFkYzU1ODNlZTliYzQwIiwidXNlcl9pZCI6MX0.dxEJKJEUSumcqyCNdzlcpPWuc2ynIBzlq6upu6L0tBM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"schedule\": {\r\n        \"sunday\": [\r\n            {\r\n                \"start\": \"00:00\",\r\n                \"stop\": \"23:59\",\r\n                \"ids\": [\r\n                    32\r\n                ]\r\n            }\r\n        ]}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/timeslots/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timeslots",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JWT token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"noman\",\r\n    \"password\": \"noman\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtain new token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyOTI1OTE3NSwiaWF0IjoxNzI5MTcyNzc1LCJqdGkiOiJlYmQyMmExZWZiYmY0MTEwODNkMTYyYWE0OWNlOTdiZSIsInVzZXJfaWQiOjF9.kVW8L2EkaTHS7T5MvcAnbwKiQgKgaReQG_UDHipAV_g\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/refresh/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						"refresh",
+						""
+					]
+				}
 			},
 			"response": []
 		}
