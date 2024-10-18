@@ -6,8 +6,8 @@ Run the following command to install the required package:
 pip install djangorestframework-simplejwt
 ```
 
-2. Update settings.py:
-Add the necessary apps in the INSTALLED_APPS section:
+2. Update **settings.py**:
+Add the necessary apps in the **INSTALLED_APPS** section:
 ```INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
@@ -22,7 +22,7 @@ REST_FRAMEWORK = {
 }
 ```
 3. Configure URLs:
-Update urls.py to add routes for obtaining and refreshing JWT tokens:
+Update **urls.py** to add routes for obtaining and refreshing JWT tokens:
 
 ```from rest_framework_simplejwt.views import (
     TokenObtainPairView,
