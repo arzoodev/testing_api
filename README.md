@@ -3,7 +3,8 @@
 ## 1. Install Dependencies:
 Run the following command to install the required package:
 ```
-pip install djangorestframework-simplejwt```
+pip install djangorestframework-simplejwt
+```
 
 2. Update settings.py:
 Add the necessary apps in the INSTALLED_APPS section:
